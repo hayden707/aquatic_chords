@@ -1,3 +1,45 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Source+Sans+Pro&family=Yuji+Mai&display=swap');
+
+html {
+  background: url('https://i.imgur.com/o1O9Fqu.jpg') no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  font-family: 'Yuji Mai', serif;
+}
+.title {
+  color: white;
   text-align: center;
+  margin-top: 2em;
+  margin-bottom: 0;
+  font-size: 6em;
+}
+
+button {
+  background-color: white;
+  color: #0066cc;
+  padding: 15px 32px;
+  border-radius: 25px;
+  font-family: 'Yuji Mai', serif;
+  font-size: 16px;
+}
+
+.chord-wrapper {
+  height: 65vh;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 8em;
+}
+
+.chord {
+  margin-left: 4px;
+  margin-right: 4px;
 }
