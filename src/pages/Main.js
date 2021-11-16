@@ -14,7 +14,7 @@ export default function Main() {
   }).toDestination()
   let delay = new Tone.FeedbackDelay('8n', 0.75).toDestination()
 
-  const synth = new Tone.Synth().chain(delay, reverb)
+  // const synth = new Tone.Synth().chain(delay, reverb)
 
   // function playNote(note) {
   //   synth.triggerAttackRelease(`${note}5`, '8n')
