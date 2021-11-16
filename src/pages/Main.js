@@ -16,17 +16,17 @@ export default function Main() {
 
   const synth = new Tone.Synth().chain(delay, reverb)
 
-  function playNote(note) {
-    synth.triggerAttackRelease(`${note}5`, '8n')
-  }
+  // function playNote(note) {
+  //   synth.triggerAttackRelease(`${note}5`, '8n')
+  // }
 
   // hayden addition
   const poly1 = new Tone.PolySynth(Tone.AMSynth).chain(delay, reverb)
   poly1.set({ detune: -1200 })
 
-  function playPoly() {
-    poly1.triggerAttackRelease(['C4', 'E4', 'Ab4', 'Eb5'], '8n')
-  }
+  // function playPoly() {
+  //   poly1.triggerAttackRelease(['C4', 'E4', 'Ab4', 'Eb5'], '8n')
+  // }
 
   const poly2 = new Tone.PolySynth(Tone.AMSynth).chain(delay, reverb)
   poly2.set({ detune: -1200 })
@@ -37,8 +37,8 @@ export default function Main() {
   let Fm9 = ['F2', 'C4', 'Eb4', 'Ab4']
   let Bbadd9D = ['D3', 'C4', 'F4', 'Bb4']
 
-  let C5 = ['C4', 'G4', 'C3']
-  let F5 = ['F4', 'C3', 'F3']
+  // let C5 = ['C4', 'G4', 'C3']
+  // let F5 = ['F4', 'C3', 'F3']
 
   let chordList = [Cm9, Ab9, Fm9, Bbadd9D]
   // let randomChord = chordList[Math.floor(Math.random() * chordList.length)]
