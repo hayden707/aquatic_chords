@@ -16,7 +16,7 @@ button {
 }
 
 .chord-wrapper {
-  height: 65vh;
+  /* height: 65vh; */
   width: 100%;
   display: inline-flex;
   justify-content: center;
@@ -27,6 +27,13 @@ button {
 .chord {
   margin-left: 4px;
   margin-right: 4px;
+}
+
+#random {
+  display: block;
+  margin: 2em auto;
+  background-color: #dc6070;
+  color: white;
 }
 
 @media screen and (max-width: 480px) {
@@ -44,5 +51,10 @@ button {
     margin-right: 2em;
     margin-left: 2em;
     max-height: 200px;
+  }
+
+  #random {
+    padding-right: 2em;
+    padding-left: 2em;
   }
 }

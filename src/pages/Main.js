@@ -74,10 +74,10 @@ export default function Main() {
         <button className="chord" onClick={() => playPoly1(Bbadd9D)}>
           Bbadd9/D
         </button>
-        <button className="chord, random" onClick={() => playRandom()}>
-          random
-        </button>
       </div>
+      <button id="random" onClick={() => playRandom()}>
+        random
+      </button>
     </div>
   )
 }
