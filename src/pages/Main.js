@@ -8,6 +8,8 @@ export default function Main() {
 
   // end test
 
+  Tone.Master.volume.value = -10
+
   let reverb = new Tone.Freeverb({
     roomSize: 0.7,
     dampening: 3000
