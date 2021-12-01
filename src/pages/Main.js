@@ -2,6 +2,7 @@ import React from 'react'
 import '../App.css'
 import './Main.css'
 import * as Tone from 'tone'
+import { Link } from 'react-router-dom'
 
 export default function Main() {
   Tone.Master.volume.value = -10
@@ -56,6 +57,9 @@ export default function Main() {
       <button id="random" onClick={() => playRandom()}>
         random
       </button>
+      <Link to={`/about`}>
+        <p className="about-link">About</p>
+      </Link>
     </div>
   )
 }

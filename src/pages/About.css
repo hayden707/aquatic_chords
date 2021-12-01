@@ -7,6 +7,14 @@
   align-items: center;
 }
 
+.home-link {
+  font-family: 'Yuji Mai', serif;
+  font-size: 1.5em;
+  margin-top: 0;
+  padding-top: 24px;
+  text-align: center;
+}
+
 .background {
   background-color: black;
   height: 34em;
