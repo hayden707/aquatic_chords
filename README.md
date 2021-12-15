@@ -12,7 +12,7 @@
 
 ---
 
-[Link] (https://aquatic-chords.netlify.app/)
+[Link](https://aquatic-chords.netlify.app/)
 
 **_Description_**
 
